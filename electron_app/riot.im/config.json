@@ -1,5 +1,6 @@
 
 {
+    "cross_origin_renderer_url": "https://usercontent.neocrypto.io/v1.html",
     "update_base_url": "https://chat.neocrypto.io/download/desktop/update/",
     "default_hs_url": "https://neocrypto.io",
     "default_is_url": "https://neocrypto.io",
