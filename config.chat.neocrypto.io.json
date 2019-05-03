@@ -19,7 +19,8 @@
         "feature_rich_quoting": "enable",
         "feature_sticker_messages": "enable",
         "feature_jitsi": "enable",
-        "feature_tag_panel": "enable"
+        "feature_tag_panel": "enable",
+        "feature_reactions": "enable"
     },
     "default_federate": true,
     "welcomePageUrl": "home.html",
