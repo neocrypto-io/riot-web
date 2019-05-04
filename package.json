@@ -1,13 +1,13 @@
 {
-  "name": "riot-web",
+  "name": "neocrypto-chat",
   "productName": "Riot",
   "main": "electron_app/src/electron-main.js",
   "version": "1.0.8",
   "description": "A feature-rich client for Matrix.org",
-  "author": "New Vector Ltd.",
+  "author": "NeoCrypto.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vector-im/riot-web"
+    "url": "https://github.com/neocrypto-io/riot-web"
   },
   "license": "Apache-2.0",
   "files": [
