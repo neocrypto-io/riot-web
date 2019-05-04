@@ -22,3 +22,4 @@ electron/pub
 /config.local*.json
 /src/component-index.js
 /.tmp
+*.bak
