@@ -206,7 +206,10 @@ const launcher = new AutoLaunch({
 // work.
 // Also mark it as secure (ie. accessing resources from this
 // protocol and HTTPS won't trigger mixed content warnings).
-protocol.registerStandardSchemes(['vector'], {secure: true});
+//protocol.registerStandardSchemes(['vector'], {secure: true});
+protocol.registerSchemesAsPrivileged([{
+    scheme: 'vector', privileges: {standard: true, secure: true, supportFetchAPI: true},
+}]);
 
 app.on('ready', () => {
     if (argv['devtools']) {

@@ -23,7 +23,7 @@ window.ipcRenderer = ipcRenderer;
 // protocol: this is necessary to load olm.wasm.
 // (Also mark it a secure although we've already
 // done this in the main process).
-webFrame.registerURLSchemeAsPrivileged('vector', {
+/*webFrame.registerURLSchemeAsPrivileged('vector', {
     secure: true,
     supportFetchAPI: true,
-});
+});*/

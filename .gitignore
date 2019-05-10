@@ -23,3 +23,5 @@ electron/pub
 /src/component-index.js
 /.tmp
 *.bak
+yarn.lock
+yarn_error.log
