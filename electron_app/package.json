@@ -1,6 +1,6 @@
 {
-  "name": "neocrypto-chat",
-  "productName": "NeoCrypto Chat",
+  "name": "neocrypto-trading-chat",
+  "productName": "NeoCrypto Trading Chat",
   "main": "src/electron-main.js",
   "version": "1.0.8",
   "description": "A feature-rich client for NeoCrypto Chat",
