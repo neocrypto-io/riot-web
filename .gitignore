@@ -23,3 +23,4 @@ electron/pub
 /src/component-index.js
 /.tmp
 *.bak
+*.kate-swp
