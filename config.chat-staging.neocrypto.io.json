@@ -21,7 +21,7 @@
     "integrations_jitsi_widget_url": "https://dimension.neocrypto.io/api/widgets/jitsi.html",
     "bug_report_endpoint_url": "https://riot.im/bugreports/submit",
     "defaultCountryCode": "GB",
-    "showLabsSettings": false,
+    "showLabsSettings": true,
     "features": {
         "feature_groups": "enable",
         "feature_pinning": "enable",
@@ -31,7 +31,8 @@
         "feature_jitsi": "enable",
         "feature_tag_panel": "enable",
         "feature_reactions": "enable"
-        "feature_message_editing": "labs    },
+        "feature_message_editing": "labs
+    },
     "default_federate": true,
     "welcomePageUrl": "home.html",
     "default_theme": "dark",
