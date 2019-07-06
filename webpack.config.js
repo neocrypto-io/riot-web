@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 let og_image_url = process.env.RIOT_OG_IMAGE_URL;
-if (!og_image_url) og_image_url = 'https://chat.neocrypto.io/app/themes/riot/img/logos/neocrypto-chat-logo.png';
+if (!og_image_url) og_image_url = 'https://chat.neocrypto.io/themes/riot/img/logos/neocrypto-chat-logo.png';
 
 module.exports = {
     entry: {
