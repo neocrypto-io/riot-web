@@ -3,7 +3,7 @@
   "productName": "Riot",
   "main": "electron_app/src/electron-main.js",
   "version": "1.2.2",
-  "description": "A feature-rich client for Matrix.org",
+  "description": "A feature-rich client for chat.neocrypto.io",
   "author": "NeoCrypto.io",
   "repository": {
     "type": "git",
