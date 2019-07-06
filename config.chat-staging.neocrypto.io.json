@@ -10,7 +10,7 @@
     },
     "disable_identity_server": false,
     "cross_origin_renderer_url": "https://usercontent.neocrypto.io/v1.html",
-    "disable_custom_urls": false,
+    "disable_custom_urls": true,
     "disable_guests": false,
     "disable_login_language_selector": false,
     "disable_3pid_login": false,
@@ -20,7 +20,7 @@
     "integrations_widgets_urls": ["https://dimension.neocrypto.io/widgets"],
     "integrations_jitsi_widget_url": "https://dimension.neocrypto.io/api/widgets/jitsi.html",
     "bug_report_endpoint_url": "https://riot.im/bugreports/submit",
-    "defaultCountryCode": "GB",
+    "defaultCountryCode": "US",
     "showLabsSettings": true,
     "features": {
         "feature_groups": "enable",
@@ -30,8 +30,8 @@
         "feature_sticker_messages": "enable",
         "feature_jitsi": "enable",
         "feature_tag_panel": "enable",
-        "feature_reactions": "enable"
-        "feature_message_editing": "labs
+        "feature_reactions": "enable",
+        "feature_message_editing": "labs"
     },
     "default_federate": true,
     "welcomePageUrl": "home.html",
@@ -61,4 +61,4 @@
             "text": "Cookie Policy"
         }
     ]
-}
+Y}
