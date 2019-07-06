@@ -1,7 +1,15 @@
 {
+    "default_server_config": {
+        "m.homeserver": {
+            "base_url": "https://neocrypto.io",
+            "server_name": "neocrypto.io"
+        },
+        "m.identity_server": {
+            "base_url": "https://neocrypto.io"
+        }
+    },
+    "disable_identity_server": false,
     "cross_origin_renderer_url": "https://usercontent.neocrypto.io/v1.html",
-    "default_hs_url": "https://neocrypto.io",
-    "default_is_url": "https://neocrypto.io",
     "disable_custom_urls": false,
     "disable_guests": false,
     "disable_login_language_selector": false,
@@ -12,6 +20,8 @@
     "integrations_widgets_urls": ["https://dimension.neocrypto.io/widgets"],
     "integrations_jitsi_widget_url": "https://dimension.neocrypto.io/api/widgets/jitsi.html",
     "bug_report_endpoint_url": "https://riot.im/bugreports/submit",
+    "defaultCountryCode": "GB",
+    "showLabsSettings": false,
     "features": {
         "feature_groups": "enable",
         "feature_pinning": "enable",
@@ -21,7 +31,7 @@
         "feature_jitsi": "enable",
         "feature_tag_panel": "enable",
         "feature_reactions": "enable"
-    },
+        "feature_message_editing": "labs    },
     "default_federate": true,
     "welcomePageUrl": "home.html",
     "default_theme": "dark",
