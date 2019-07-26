@@ -1,3 +1,77 @@
+Changes in [1.3.0](https://github.com/vector-im/riot-web/releases/tag/v1.3.0) (2019-07-18)
+==========================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.3.0-rc.3...v1.3.0)
+
+ * Upgrade to React SDK 1.4.0 and JS SDK 2.2.0
+ * Message editing and reactions features enabled
+ * Remove edits and reactions feature flags from docs and config
+   [\#10365](https://github.com/vector-im/riot-web/pull/10365)
+
+Changes in [1.3.0-rc.3](https://github.com/vector-im/riot-web/releases/tag/v1.3.0-rc.3) (2019-07-15)
+====================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.3.0-rc.2...v1.3.0-rc.3)
+
+ * Update to react-sdk rc.3 to fix a bug where a room admin could generate a room
+   that would cause Riot to error, and some stuck notifications.
+
+Changes in [1.3.0-rc.2](https://github.com/vector-im/riot-web/releases/tag/v1.3.0-rc.2) (2019-07-12)
+====================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.3.0-rc.1...v1.3.0-rc.2)
+
+ * Upgrade to React SDK 1.4.0-rc.2 and JS SDK 2.2.0-rc.2
+ * Fix regression from Riot 1.3.0-rc.1 when listing devices in user settings
+
+Changes in [1.3.0-rc.1](https://github.com/vector-im/riot-web/releases/tag/v1.3.0-rc.1) (2019-07-12)
+====================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.2.4...v1.3.0-rc.1)
+
+ * Upgrade to React SDK 1.4.0-rc.1 and JS SDK 2.2.0-rc.1
+ * Update from Weblate
+   [\#10328](https://github.com/vector-im/riot-web/pull/10328)
+ * Upgrade dependencies
+   [\#10308](https://github.com/vector-im/riot-web/pull/10308)
+ * Upgrade dependencies
+   [\#10260](https://github.com/vector-im/riot-web/pull/10260)
+
+Changes in [1.2.4](https://github.com/vector-im/riot-web/releases/tag/v1.2.4) (2019-07-11)
+==========================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.2.3...v1.2.4)
+
+ * Upgrade to React SDK 1.3.1 and JS SDK 2.1.1
+ * Upgrade lodash dependencies
+ * JS SDK 2.1.1 includes a fix for ephemeral event processing
+ * React SDK 1.3.1 includes a fix for account deactivation
+
+Changes in [1.2.3](https://github.com/vector-im/riot-web/releases/tag/v1.2.3) (2019-07-08)
+==========================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.2.3-rc.1...v1.2.3)
+
+ * Upgrade to React SDK 1.3.0 and JS SDK 2.1.0
+ * JS SDK 2.1.0 includes a fix for an exception whilst syncing
+
+Changes in [1.2.3-rc.1](https://github.com/vector-im/riot-web/releases/tag/v1.2.3-rc.1) (2019-07-03)
+====================================================================================================
+[Full Changelog](https://github.com/vector-im/riot-web/compare/v1.2.2...v1.2.3-rc.1)
+
+ * Change update URL to match new host
+   [\#10247](https://github.com/vector-im/riot-web/pull/10247)
+ * Update from Weblate
+   [\#10219](https://github.com/vector-im/riot-web/pull/10219)
+ * Extract configuration docs to separate file
+   [\#10195](https://github.com/vector-im/riot-web/pull/10195)
+ * Add e2e/warning.svg to preload
+   [\#10197](https://github.com/vector-im/riot-web/pull/10197)
+ * Fix Electron vector: links
+   [\#10196](https://github.com/vector-im/riot-web/pull/10196)
+ * Display a red box of anger for config syntax errors
+   [\#10193](https://github.com/vector-im/riot-web/pull/10193)
+ * Move config-getting to VectorBasePlatform
+   [\#10181](https://github.com/vector-im/riot-web/pull/10181)
+ * Update from Weblate
+   [\#10124](https://github.com/vector-im/riot-web/pull/10124)
+ * Fix default Electron window and tray icons
+   [\#10097](https://github.com/vector-im/riot-web/pull/10097)
+
 Changes in [1.2.2](https://github.com/vector-im/riot-web/releases/tag/v1.2.2) (2019-06-19)
 ==========================================================================================
 [Full Changelog](https://github.com/vector-im/riot-web/compare/v1.2.2-rc.2...v1.2.2)
